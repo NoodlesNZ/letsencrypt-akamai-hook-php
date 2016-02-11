@@ -1,0 +1,16 @@
+{
+    "name": "letsencrypt-akamai-hook",
+    "description": "dns-01 hook for letsencrypt.sh",
+    "license": "Apache 2.0",
+    "authors": [
+        {
+            "name": "Nick Le Mouton",
+            "email": "nick@noodles.net.nz"
+        }
+    ],
+    "require": {
+        "akamai-open/edgegrid-client": "0.4.*",
+        "layershifter/tld-extract": "~0.2.0",
+        "pear/net_dns2" : "1.*"
+    }
+}
